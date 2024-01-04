@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    font-family: "IBM Plex Mono";
+}
+
+.App-header {
+    background-color: #1b1b1b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+#title {
+    color: #B6B9BF;
+}
+
+.conversion-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.conversion-section h1 {
+    margin: 0;
+    color: #B6B9BF;
+}
+
+.conversion-section h6 {
+    margin: 4px;
+    color: #6A6A6A
+}
+
+.input-section {
+    display: flex;
+    margin: 5px;
+    border: #6A6A6A solid 1px;
+    border-radius: 5px;
+    width: 365px
+}
+
+.input-section:hover {
+    border: #B6B9BF solid 1px;
+}
+
+.currency-input {
+    flex: auto;
+    margin-left: 5px;
+    background-color: #1b1b1b;
+    border: #1b1b1b;
+    font-family: "IBM Plex Mono";
+    color: #B6B9BF;
+}
+
+.currency-input:focus {
+    outline: none;
+}
+
+.currency-selection {
+    margin-right: 5px;
+    background-color: #1b1b1b;
+    border: #1b1b1b;
+    color: #B6B9BF;
+    font-family: "IBM Plex Mono";
+}
+
+button {
+    background-color: #6A6A6A;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 3px 8px 3px 8px;
+    color: #1b1b1b;
+    display: flex;
+}
+
+button:hover {
+    background-color: #B6B9BF;
+}
